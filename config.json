@@ -1,0 +1,23 @@
+{
+  "router_url": "http://192.168.1.1",
+  "username": "admin",
+  "password": "admin",
+  "max_retries": 10,
+  "retry_delay": 10,
+  "timeout": 10,
+  "reboot_page": "/rebootinfo.cgi",
+  "chrome_paths": {
+    "darwin": {
+      "binary": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "driver": "/opt/homebrew/bin/chromedriver"
+    },
+    "linux_x86_64": {
+      "binary": "/usr/bin/chromium-browser",
+      "driver": "/usr/bin/chromedriver"
+    },
+    "linux_aarch64": {
+      "binary": "/usr/bin/chromium-browser",
+      "driver": "/usr/bin/chromedriver"
+    }
+  }
+}
